@@ -33,8 +33,19 @@ set(SOURCES
 
 # MISC:
 
+#find_package(PythonInterp)
+find_package(PythonLibs REQUIRED)
+
+include_directories(${PYTHON_INCLUDE_DIRS} "/usr/include")
+
+add_executable(seed service.cpp)
+
+target_link_libraries(${PROJECT_NAME} ${PYTHON_LIBRARIES})
+target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE ${PYTHON_INCLUDE_DIRS})
+
 # To add your own include paths:
-# set(LOCAL_INCLUDES ".")
+#set(LOCAL_INCLUDES ${PYTHON_INCLUDE_DIRS} "/usr/include")
+#set(LOCAL_INCLUDES "./cpython/Include" "./cpython/PC" "./cpython/Modules")
 
 # Adding memdisk (expects my.disk to exist in current dir):
 # set(MEMDISK ${CMAKE_SOURCE_DIR}/my.disk)
