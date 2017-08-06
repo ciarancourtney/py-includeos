@@ -36,15 +36,16 @@ set(SOURCES
 #find_package(PythonInterp)
 find_package(PythonLibs REQUIRED)
 
-include_directories(${PYTHON_INCLUDE_DIRS} "/usr/include")
+#include_directories(${PYTHON_INCLUDE_DIRS} "/usr/include")
 
-add_executable(seed service.cpp)
+# Needed for target linking below
+#add_executable(seed service.cpp)
 
-target_link_libraries(${PROJECT_NAME} ${PYTHON_LIBRARIES})
-target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE ${PYTHON_INCLUDE_DIRS})
+#target_link_libraries(${PROJECT_NAME} ${PYTHON_LIBRARIES})
+#target_include_directories(${PROJECT_NAME} SYSTEM PRIVATE ${PYTHON_INCLUDE_DIRS})
 
 # To add your own include paths:
-#set(LOCAL_INCLUDES ${PYTHON_INCLUDE_DIRS} "/usr/include")
+set(LOCAL_INCLUDES ${PYTHON_INCLUDE_DIRS} "/usr/include")
 #set(LOCAL_INCLUDES "./cpython/Include" "./cpython/PC" "./cpython/Modules")
 
 # Adding memdisk (expects my.disk to exist in current dir):
@@ -65,8 +66,9 @@ set(PLUGINS
 
 # THIRD PARTY LIBRARIES:
 
+# Link Python 3.5 static lib
 set(LIBRARIES
-  # path to full library
+  /usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a
   )
 
 

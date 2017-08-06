@@ -1,0 +1,1087 @@
+[ 33%] Linking CXX executable seed
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pylifecycle.o): In function `PyOS_setsig':
+(.text+0x5f7): undefined reference to `sigemptyset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pylifecycle.o): In function `PyOS_setsig':
+(.text+0x614): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pylifecycle.o): In function `is_valid_fd':
+(.text+0xcf6): undefined reference to `dup'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pylifecycle.o): In function `Py_FatalError':
+(.text.unlikely+0xaff): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pylifecycle.o): In function `PyOS_getsig':
+(.text.hot+0x20): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pythonrun.o): In function `err_input.cold.16':
+(.text.unlikely+0x11c9): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pytime.o): In function `_PyTime_GetSystemClockWithInfo.cold.7':
+(.text.unlikely+0x2db): undefined reference to `clock_getres'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pytime.o): In function `_PyTime_GetMonotonicClockWithInfo':
+(.text.hot+0x39e): undefined reference to `clock_getres'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(random.o): In function `_PyRandom_Init':
+(.text+0x7f): undefined reference to `syscall'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(random.o): In function `_PyOS_URandom.cold.3':
+(.text.unlikely+0x109): undefined reference to `syscall'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(random.o): In function `_PyOS_URandom':
+(.text.hot+0x77): undefined reference to `syscall'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(random.o): In function `_PyOS_URandom':
+(.text.hot+0xd2): undefined reference to `syscall'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(traceback.o): In function `_Py_DisplaySourceLine':
+(.text.hot+0x28a): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(traceback.o): In function `_Py_DisplaySourceLine':
+(.text.hot+0x77a): undefined reference to `__strcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pystrcmp.o): In function `PyOS_mystrnicmp':
+(.text.unlikely+0x21): undefined reference to `__ctype_tolower_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pystrcmp.o): In function `PyOS_mystrnicmp':
+(.text.unlikely+0x4f): undefined reference to `__ctype_tolower_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pystrcmp.o): In function `PyOS_mystricmp':
+(.text.unlikely+0x8a): undefined reference to `__ctype_tolower_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pystrcmp.o): In function `PyOS_mystricmp':
+(.text.unlikely+0xa0): undefined reference to `__ctype_tolower_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_wfopen':
+(.text+0x179): undefined reference to `fopen64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_stat':
+(.text+0x236): undefined reference to `__xstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_wrealpath':
+(.text+0x2fb): undefined reference to `__realpath_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_fopen_obj':
+(.text+0x3c9): undefined reference to `fopen64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_open_noraise':
+(.text+0x518): undefined reference to `__open64_2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_set_blocking':
+(.text+0x5ac): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_fstat':
+(.text+0x5fc): undefined reference to `__fxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `set_inheritable.cold.7':
+(.text.unlikely+0x33e): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_open':
+(.text.unlikely+0x754): undefined reference to `__open64_2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_fopen':
+(.text.unlikely+0x7be): undefined reference to `fopen64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_set_inheritable':
+(.text.hot+0x831): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileutils.o): In function `_Py_fstat_noraise':
+(.text.hot+0x52b): undefined reference to `__fxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_GetInfo':
+(.text+0xda): undefined reference to `confstr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_start_new_thread':
+(.text+0x18f): undefined reference to `pthread_attr_init'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_start_new_thread':
+(.text+0x1af): undefined reference to `pthread_attr_setscope'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_start_new_thread':
+(.text+0x1d0): undefined reference to `pthread_attr_destroy'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_exit_thread':
+(.text+0x231): undefined reference to `pthread_exit'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_delete_key':
+(.text+0x151): undefined reference to `pthread_key_delete'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock.cold.1':
+(.text.unlikely+0x1d): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock.cold.1':
+(.text.unlikely+0x3c): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed.cold.2':
+(.text.unlikely+0xce): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed.cold.2':
+(.text.unlikely+0x101): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed.cold.2':
+(.text.unlikely+0x11a): undefined reference to `sem_timedwait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_create_key.cold.5':
+(.text.unlikely+0x171): undefined reference to `pthread_key_delete'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_start_new_thread.cold.9':
+(.text.unlikely+0x21f): undefined reference to `pthread_attr_setstacksize'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_start_new_thread.cold.9':
+(.text.unlikely+0x231): undefined reference to `pthread_attr_destroy'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_set_stacksize':
+(.text.unlikely+0x28f): undefined reference to `pthread_attr_init'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_set_stacksize':
+(.text.unlikely+0x2a0): undefined reference to `pthread_attr_setstacksize'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_set_stacksize':
+(.text.unlikely+0x2ab): undefined reference to `pthread_attr_destroy'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_allocate_lock':
+(.text.hot+0x28): undefined reference to `sem_init'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_allocate_lock':
+(.text.hot+0x5c): undefined reference to `sem_init'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock':
+(.text.hot+0x79): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock':
+(.text.hot+0xaf): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock':
+(.text.hot+0xc5): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock':
+(.text.hot+0xe1): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock':
+(.text.hot+0x106): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock':
+(.text.hot+0x118): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed':
+(.text.hot+0x1c4): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed':
+(.text.hot+0x22c): undefined reference to `sem_trywait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed':
+(.text.hot+0x281): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed':
+(.text.hot+0x2fc): undefined reference to `sem_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed':
+(.text.hot+0x389): undefined reference to `sem_timedwait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_acquire_lock_timed':
+(.text.hot+0x3a2): undefined reference to `sem_timedwait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_release_lock':
+(.text.hot+0x3d5): undefined reference to `sem_post'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(thread.o): In function `PyThread_free_lock':
+(.text.hot+0x45a): undefined reference to `sem_destroy'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `calculate_path':
+(.text+0x15e): undefined reference to `__wcscpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `calculate_path':
+(.text+0x1b9): undefined reference to `__wcscpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `_Py_wstat':
+(.text+0x831): undefined reference to `__xstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `calculate_path.cold.6':
+(.text.unlikely+0x53): undefined reference to `__wcsncpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `calculate_path.cold.6':
+(.text.unlikely+0x1f3): undefined reference to `__wcscpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `calculate_path.cold.6':
+(.text.unlikely+0x22d): undefined reference to `__wcscpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `calculate_path.cold.6':
+(.text.unlikely+0x7c5): undefined reference to `__wcscpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(getpath.o): In function `ismodule.constprop.5.cold.9':
+(.text.unlikely+0x901): undefined reference to `__wcscat_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_alarm':
+(.text+0x413): undefined reference to `alarm'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_siginterrupt':
+(.text+0x5c4): undefined reference to `siginterrupt'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_setitimer':
+(.text.unlikely+0x48b): undefined reference to `setitimer'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_pthread_kill':
+(.text.unlikely+0x62b): undefined reference to `pthread_kill'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_pthread_sigmask_impl.isra.8':
+(.text.unlikely+0x783): undefined reference to `pthread_sigmask'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `iterable_to_sigset':
+(.text.unlikely+0x7fa): undefined reference to `sigemptyset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `iterable_to_sigset':
+(.text.unlikely+0x876): undefined reference to `sigaddset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `sigset_to_set':
+(.text.unlikely+0x8d3): undefined reference to `sigismember'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_sigtimedwait_impl.isra.7':
+(.text.unlikely+0xa56): undefined reference to `sigtimedwait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_sigwaitinfo':
+(.text.unlikely+0xb46): undefined reference to `sigwaitinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_sigwait':
+(.text.unlikely+0xcab): undefined reference to `sigwait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_sigpending':
+(.text.unlikely+0xd1d): undefined reference to `sigpending'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_getitimer':
+(.text.unlikely+0xda9): undefined reference to `getitimer'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `signal_pause':
+(.text.unlikely+0xe06): undefined reference to `pause'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `PyInit__signal':
+(.text.hot+0xb01): undefined reference to `__libc_current_sigrtmin'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(signalmodule.o): In function `PyInit__signal':
+(.text.hot+0xb30): undefined reference to `__libc_current_sigrtmax'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listdir':
+(.text+0x143e): undefined reference to `opendir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listdir':
+(.text+0x14d1): undefined reference to `readdir64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listdir':
+(.text+0x1549): undefined reference to `closedir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listdir':
+(.text+0x15be): undefined reference to `fdopendir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listdir':
+(.text+0x15fb): undefined reference to `rewinddir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_geteuid':
+(.text+0x1752): undefined reference to `geteuid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getegid':
+(.text+0x1772): undefined reference to `getegid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_lstat':
+(.text+0x18be): undefined reference to `__fxstatat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_lstat':
+(.text+0x194f): undefined reference to `__lxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_lstat':
+(.text+0x1968): undefined reference to `__fxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_open':
+(.text+0x1bbb): undefined reference to `open64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_open':
+(.text+0x1c48): undefined reference to `openat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_fstat':
+(.text+0x2399): undefined reference to `__fxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_lseek':
+(.text+0x251c): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_pipe':
+(.text+0x25b7): undefined reference to `pipe2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_rmdir':
+(.text+0x27e0): undefined reference to `unlinkat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_unlink_impl.isra.105':
+(.text+0x2b4c): undefined reference to `unlinkat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_waitpid':
+(.text+0x338f): undefined reference to `waitpid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_symlink':
+(.text+0x37ca): undefined reference to `symlink'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setxattr':
+(.text+0x3a05): undefined reference to `setxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setxattr':
+(.text+0x3aae): undefined reference to `lsetxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setxattr':
+(.text+0x3ae5): undefined reference to `fsetxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `posix_scandir':
+(.text+0x3b9a): undefined reference to `opendir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `ScandirIterator_iternext':
+(.text+0x3c0d): undefined reference to `readdir64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `ScandirIterator_close.isra.16':
+(.text+0x3de2): undefined reference to `closedir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listxattr':
+(.text+0x4c12): undefined reference to `listxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getxattr':
+(.text+0x4eb5): undefined reference to `getxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `DirEntry_fetch_stat.isra.138':
+(.text+0x5027): undefined reference to `__xstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `posix_sendfile':
+(.text+0x517a): undefined reference to `sendfile64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `posix_readlink.cold.159':
+(.text.unlikely+0x88b): undefined reference to `readlinkat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `internal_rename.cold.162':
+(.text.unlikely+0x96f): undefined reference to `renameat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getppid':
+(.text.unlikely+0x97f): undefined reference to `getppid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setreuid':
+(.text.unlikely+0xaca): undefined reference to `setreuid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setregid':
+(.text.unlikely+0xb48): undefined reference to `setregid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_pipe.cold.175':
+(.text.unlikely+0xed4): undefined reference to `pipe'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_chdir.cold.189':
+(.text.unlikely+0x12ef): undefined reference to `fchdir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_symlink.cold.190':
+(.text.unlikely+0x134f): undefined reference to `symlinkat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_openpty':
+(.text.unlikely+0x14c7): undefined reference to `openpty'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_ttyname':
+(.text.unlikely+0x17d8): undefined reference to `ttyname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_link.cold.200':
+(.text.unlikely+0x1a42): undefined reference to `linkat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_ctermid':
+(.text.unlikely+0x1ac2): undefined reference to `ctermid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_times':
+(.text.unlikely+0x1bbf): undefined reference to `times'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getloadavg':
+(.text.unlikely+0x1cfa): undefined reference to `getloadavg'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getgroups_impl.isra.144':
+(.text.unlikely+0x1d84): undefined reference to `getgroups'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getgroups_impl.isra.144':
+(.text.unlikely+0x1da0): undefined reference to `getgroups'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getgroups_impl.isra.144':
+(.text.unlikely+0x1de2): undefined reference to `getgroups'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getpgrp':
+(.text.unlikely+0x1e8e): undefined reference to `getpgrp'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sync':
+(.text.unlikely+0x1ea5): undefined reference to `sync'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_forkpty':
+(.text.unlikely+0x1eee): undefined reference to `forkpty'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_access':
+(.text.unlikely+0x2098): undefined reference to `faccessat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_chown':
+(.text.unlikely+0x2324): undefined reference to `lchown'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_chown':
+(.text.unlikely+0x234c): undefined reference to `fchownat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_chown':
+(.text.unlikely+0x2353): undefined reference to `chown'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_ftruncate_impl.isra.45':
+(.text.unlikely+0x2490): undefined reference to `ftruncate64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_dup2':
+(.text.unlikely+0x2563): undefined reference to `dup3'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_dup2':
+(.text.unlikely+0x258f): undefined reference to `dup2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_execv':
+(.text.unlikely+0x2770): undefined reference to `execv'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_statvfs':
+(.text.unlikely+0x2946): undefined reference to `fstatvfs64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_statvfs':
+(.text.unlikely+0x2954): undefined reference to `statvfs64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_wait3':
+(.text.unlikely+0x2b69): undefined reference to `wait3'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_wait4':
+(.text.unlikely+0x2c44): undefined reference to `wait4'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setuid':
+(.text.unlikely+0x2ec7): undefined reference to `setuid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_execve.cold.209':
+(.text.unlikely+0x3005): undefined reference to `fexecve'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_confstr_impl.isra.20':
+(.text.unlikely+0x31d4): undefined reference to `confstr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_confstr_impl.isra.20':
+(.text.unlikely+0x322d): undefined reference to `confstr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `get_terminal_size':
+(.text.unlikely+0x33ae): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listxattr.cold.211':
+(.text.unlikely+0x34f6): undefined reference to `llistxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_listxattr.cold.211':
+(.text.unlikely+0x3509): undefined reference to `flistxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getxattr.cold.212':
+(.text.unlikely+0x35d2): undefined reference to `fgetxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getxattr.cold.212':
+(.text.unlikely+0x35df): undefined reference to `lgetxattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_wait':
+(.text.unlikely+0x3663): undefined reference to `wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_fstatvfs':
+(.text.unlikely+0x371f): undefined reference to `fstatvfs64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getscheduler':
+(.text.unlikely+0x37e4): undefined reference to `sched_getscheduler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getparam':
+(.text.unlikely+0x3851): undefined reference to `sched_getparam'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setscheduler':
+(.text.unlikely+0x3907): undefined reference to `sched_setscheduler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setparam':
+(.text.unlikely+0x39fb): undefined reference to `sched_setparam'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `posix_getgrouplist':
+(.text.unlikely+0x3b26): undefined reference to `getgrouplist'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getresgid':
+(.text.unlikely+0x3bfe): undefined reference to `getresgid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getresuid':
+(.text.unlikely+0x3c8c): undefined reference to `getresuid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `posix_initgroups':
+(.text.unlikely+0x3d41): undefined reference to `initgroups'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_lchown':
+(.text.unlikely+0x3e69): undefined reference to `lchown'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_lockf':
+(.text.unlikely+0x3f4d): undefined reference to `lockf64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_mknod':
+(.text.unlikely+0x4262): undefined reference to `__xmknodat'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_mknod':
+(.text.unlikely+0x427a): undefined reference to `__xmknod'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `DirEntry_fetch_stat.isra.138.cold.214':
+(.text.unlikely+0x4343): undefined reference to `__lxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_pipe2':
+(.text.unlikely+0x43c7): undefined reference to `pipe2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_posix_fadvise':
+(.text.unlikely+0x4487): undefined reference to `posix_fadvise64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_posix_fallocate':
+(.text.unlikely+0x455b): undefined reference to `posix_fallocate64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_pread':
+(.text.unlikely+0x467f): undefined reference to `pread64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_pwrite':
+(.text.unlikely+0x477a): undefined reference to `pwrite64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_readv':
+(.text.unlikely+0x48b5): undefined reference to `readv'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4b31): undefined reference to `__sched_cpualloc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4b5c): undefined reference to `sched_getaffinity'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4b68): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4bcb): undefined reference to `__sched_cpucount'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4c40): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4c62): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4c94): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_getaffinity':
+(.text.unlikely+0x4c9e): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_get_priority_min':
+(.text.unlikely+0x4cee): undefined reference to `sched_get_priority_min'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_get_priority_max':
+(.text.unlikely+0x4d61): undefined reference to `sched_get_priority_max'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_rr_get_interval':
+(.text.unlikely+0x4dd1): undefined reference to `sched_rr_get_interval'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setaffinity':
+(.text.unlikely+0x4eaf): undefined reference to `__sched_cpualloc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setaffinity':
+(.text.unlikely+0x4fb3): undefined reference to `__sched_cpualloc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setaffinity':
+(.text.unlikely+0x4ffa): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setaffinity':
+(.text.unlikely+0x504a): undefined reference to `sched_setaffinity'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setaffinity':
+(.text.unlikely+0x5066): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_sched_setaffinity':
+(.text.unlikely+0x507c): undefined reference to `__sched_cpufree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setresgid':
+(.text.unlikely+0x5138): undefined reference to `setresgid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setresuid':
+(.text.unlikely+0x51cc): undefined reference to `setresuid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_truncate':
+(.text.unlikely+0x52d6): undefined reference to `truncate64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_waitid':
+(.text.unlikely+0x53b7): undefined reference to `waitid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_writev':
+(.text.unlikely+0x556c): undefined reference to `writev'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_removexattr':
+(.text.unlikely+0x57cd): undefined reference to `fremovexattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_removexattr':
+(.text.unlikely+0x5863): undefined reference to `removexattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_removexattr':
+(.text.unlikely+0x5870): undefined reference to `lremovexattr'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_chroot':
+(.text.unlikely+0x59cb): undefined reference to `chroot'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setegid':
+(.text.unlikely+0x5a7f): undefined reference to `setegid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_seteuid':
+(.text.unlikely+0x5af3): undefined reference to `seteuid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setgid':
+(.text.unlikely+0x5b67): undefined reference to `setgid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getpriority':
+(.text.unlikely+0x5bfc): undefined reference to `getpriority'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setpriority':
+(.text.unlikely+0x5c8b): undefined reference to `setpriority'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_fchdir':
+(.text.unlikely+0x5d08): undefined reference to `fchdir'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_fdatasync':
+(.text.unlikely+0x5e22): undefined reference to `fdatasync'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_tcgetpgrp':
+(.text.unlikely+0x6093): undefined reference to `tcgetpgrp'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_tcsetpgrp':
+(.text.unlikely+0x6104): undefined reference to `tcsetpgrp'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `posix_sendfile.cold.216':
+(.text.unlikely+0x62b1): undefined reference to `sendfile64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setgroups':
+(.text.unlikely+0x65b8): undefined reference to `setgroups'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setpgid':
+(.text.unlikely+0x6694): undefined reference to `setpgid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setsid':
+(.text.unlikely+0x66d2): undefined reference to `setsid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getsid':
+(.text.unlikely+0x6728): undefined reference to `getsid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_setpgrp':
+(.text.unlikely+0x6762): undefined reference to `setpgrp'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getpgid':
+(.text.unlikely+0x67c0): undefined reference to `getpgid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_killpg':
+(.text.unlikely+0x6831): undefined reference to `killpg'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_getlogin':
+(.text.unlikely+0x6881): undefined reference to `getlogin'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_nice':
+(.text.unlikely+0x6907): undefined reference to `nice'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_stat':
+(.text.hot+0x314): undefined reference to `__xstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_stat':
+(.text.hot+0x79c): undefined reference to `__fxstatat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_stat':
+(.text.hot+0xb2b): undefined reference to `__lxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(posixmodule.o): In function `os_stat':
+(.text.hot+0xbd6): undefined reference to `__fxstat64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `_PyFaulthandler_Init':
+(.text+0x39): undefined reference to `sigaltstack'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_enable':
+(.text+0x260): undefined reference to `sigemptyset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_enable':
+(.text+0x290): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_disable':
+(.text+0x548): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_register':
+(.text+0x7b4): undefined reference to `sigemptyset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_register':
+(.text+0x7ed): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_unregister':
+(.text+0x83c): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_thread':
+(.text.unlikely+0x609): undefined reference to `sigfillset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_thread':
+(.text.unlikely+0x618): undefined reference to `pthread_sigmask'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_user':
+(.text.unlikely+0x771): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_suppress_crash_report':
+(.text.unlikely+0x8a3): undefined reference to `getrlimit64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_suppress_crash_report':
+(.text.unlikely+0x8bc): undefined reference to `setrlimit64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(faulthandler.o): In function `faulthandler_fatal_error':
+(.text.unlikely+0xb32): undefined reference to `sigaction'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `check_coding_spec':
+(.text+0x568): undefined reference to `__ctype_tolower_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `fp_setreadl':
+(.text.unlikely+0x1dcf): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `tok_get':
+(.text.hot+0x1fc): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `tok_get':
+(.text.hot+0xa18): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `tok_get':
+(.text.hot+0xd35): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `tok_get':
+(.text.hot+0x1b83): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o): In function `tok_get':
+(.text.hot+0x1ba4): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(tokenizer.o):(.text.hot+0x1ce7): more undefined references to `__ctype_b_loc' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(bytesobject.o): In function `PyBytes_FromFormatV.cold.50':
+(.text.unlikely+0x20cd): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(bytesobject.o): In function `PyBytes_FromFormatV.cold.50':
+(.text.unlikely+0x217c): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(bytesobject.o): In function `PyBytes_FromFormatV.cold.50':
+(.text.unlikely+0x21d3): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(bytesobject.o): In function `PyBytes_FromFormatV.cold.50':
+(.text.unlikely+0x225c): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(bytesobject.o): In function `PyBytes_FromFormatV.cold.50':
+(.text.unlikely+0x22b4): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(bytesobject.o):(.text.unlikely+0x22ef): more undefined references to `__sprintf_chk' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileobject.o): In function `Py_UniversalNewlineFgets.cold.5':
+(.text.unlikely+0x171): undefined reference to `funlockfile'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileobject.o): In function `Py_UniversalNewlineFgets.cold.5':
+(.text.unlikely+0x1ad): undefined reference to `__uflow'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileobject.o): In function `Py_UniversalNewlineFgets':
+(.text.hot+0x1d3): undefined reference to `flockfile'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileobject.o): In function `Py_UniversalNewlineFgets':
+(.text.hot+0x2a4): undefined reference to `funlockfile'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileobject.o): In function `Py_UniversalNewlineFgets':
+(.text.hot+0x3b6): undefined reference to `__uflow'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(object.o): In function `PyObject_Print':
+(.text.unlikely+0x1397): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(object.o): In function `_PyObject_Dump':
+(.text.unlikely+0x155b): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(obmalloc.o): In function `_PyObject_ArenaMmap':
+(.text+0x1f5): undefined reference to `mmap64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(obmalloc.o): In function `_PyObject_DebugMallocStats':
+(.text+0x3cf): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(obmalloc.o): In function `_PyObject_DebugMallocStats':
+(.text+0x53e): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(structseq.o): In function `structseq_repr':
+(.text+0x1dd): undefined reference to `__strncpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(typeobject.o): In function `type_traverse.cold.39':
+(.text.unlikely+0x1954): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `unicode_encode_ucs1':
+(.text+0x206c): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV.cold.49':
+(.text.unlikely+0x1c26): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV.cold.49':
+(.text.unlikely+0x1c7e): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV.cold.49':
+(.text.unlikely+0x1e68): undefined reference to `__memmove_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV.cold.49':
+(.text.unlikely+0x20ae): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV.cold.49':
+(.text.unlikely+0x20fa): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `_Py_ReleaseInternedUnicodeStrings':
+(.text.unlikely+0x13a5e): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `_Py_ReleaseInternedUnicodeStrings':
+(.text.unlikely+0x13ae8): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV':
+(.text.hot+0x53e7): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV':
+(.text.hot+0x5585): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV':
+(.text.hot+0x5653): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV':
+(.text.hot+0x579f): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o): In function `PyUnicode_FromFormatV':
+(.text.hot+0x57ef): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodeobject.o):(.text.hot+0x58de): more undefined references to `__sprintf_chk' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(ceval.o): In function `create_gil':
+(.text+0x221): undefined reference to `pthread_cond_init'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(ceval.o): In function `create_gil':
+(.text+0x235): undefined reference to `pthread_cond_init'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(ceval.o): In function `PyEval_EvalFrameEx':
+(.text.hot+0x942b): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(compile.o): In function `assemble.cold.44':
+(.text.unlikely+0x1d69): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(compile.o): In function `assemble.cold.44':
+(.text.unlikely+0x1dac): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(compile.o): In function `assemble.cold.44':
+(.text.unlikely+0x1e2f): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(compile.o): In function `stackdepth_walk':
+(.text.unlikely+0x2308): undefined reference to `__fprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(compile.o):(.text.unlikely+0x268b): more undefined references to `__fprintf_chk' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(marshal.o): In function `r_object.cold.7':
+(.text.unlikely+0x2dc): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(marshal.o): In function `r_object.cold.7':
+(.text.unlikely+0x34d): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(marshal.o): In function `marshal_loads.cold.12':
+(.text.unlikely+0x1c85): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(marshal.o): In function `marshal_loads.cold.12':
+(.text.unlikely+0x1cfa): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(marshal.o): In function `r_object':
+(.text.hot+0xb0c): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(marshal.o):(.text.hot+0x3540): more undefined references to `__memcpy_chk' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(mysnprintf.o): In function `PyOS_vsnprintf':
+(.text+0x27): undefined reference to `__vsnprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(mysnprintf.o): In function `PyOS_snprintf':
+(.text.hot+0xb5): undefined reference to `__vsnprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pystrtod.o): In function `PyOS_double_to_string':
+(.text.hot+0x50a): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(arraymodule.o): In function `array_array_reverse':
+(.text.unlikely+0x130a): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_elementtree.o): In function `expat_default_handler.cold.51':
+(.text.unlikely+0x1a2e): undefined reference to `__strncat_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_datetimemodule.o): In function `wrap_strftime.cold.22':
+(.text.unlikely+0xacd): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_datetimemodule.o): In function `wrap_strftime.cold.22':
+(.text.unlikely+0xb49): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_datetimemodule.o): In function `wrap_strftime.cold.22':
+(.text.unlikely+0xb87): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodedata.o): In function `unicodedata_UCD_decomposition_impl.cold.15':
+(.text.unlikely+0xa72): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodedata.o): In function `_getucname':
+(.text.hot+0x28c): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodedata.o): In function `unicodedata_UCD_decomposition_impl':
+(.text.hot+0x929): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodedata.o): In function `unicodedata_UCD_name_impl':
+(.text.hot+0xec6): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(unicodedata.o): In function `unicodedata_UCD_name_impl':
+(.text.hot+0xf90): undefined reference to `__strcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0x7fc): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0x862): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0x88e): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0x8b0): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0x955): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0x973): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_ioctl_impl.isra.2':
+(.text.unlikely+0xa21): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_fcntl_impl.isra.3':
+(.text.unlikely+0xcf4): undefined reference to `__memcpy_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fcntlmodule.o): In function `fcntl_flock':
+(.text.unlikely+0xde5): undefined reference to `flock'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(spwdmodule.o): In function `spwd_getspall':
+(.text.unlikely+0x1a1): undefined reference to `setspent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(spwdmodule.o): In function `spwd_getspall':
+(.text.unlikely+0x1a6): undefined reference to `getspent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(spwdmodule.o): In function `spwd_getspall':
+(.text.unlikely+0x1f7): undefined reference to `endspent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(spwdmodule.o): In function `spwd_getspall':
+(.text.unlikely+0x217): undefined reference to `endspent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(spwdmodule.o): In function `spwd_getspnam':
+(.text.unlikely+0x27b): undefined reference to `getspnam'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(grpmodule.o): In function `grp_getgrgid':
+(.text+0xe9): undefined reference to `getgrgid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(grpmodule.o): In function `grp_getgrnam':
+(.text+0x266): undefined reference to `getgrnam'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(grpmodule.o): In function `grp_getgrall':
+(.text+0x2c9): undefined reference to `setgrent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(grpmodule.o): In function `grp_getgrall':
+(.text+0x2f5): undefined reference to `getgrent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(grpmodule.o): In function `grp_getgrall.cold.7':
+(.text.unlikely+0x15a): undefined reference to `endgrent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(grpmodule.o): In function `grp_getgrall.cold.7':
+(.text.unlikely+0x165): undefined reference to `endgrent'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `newPyEpoll_Object.isra.0':
+(.text+0x306): undefined reference to `epoll_create1'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `pyepoll_unregister':
+(.text+0x3a2): undefined reference to `epoll_ctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `pyepoll_modify':
+(.text+0x916): undefined reference to `epoll_ctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `pyepoll_poll':
+(.text+0xa7d): undefined reference to `epoll_wait'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `seq2set.cold.11':
+(.text.unlikely+0x20e): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `poll_poll.cold.16':
+(.text.unlikely+0x603): undefined reference to `poll'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `pyepoll_register':
+(.text.hot+0x8b): undefined reference to `epoll_ctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `seq2set':
+(.text.hot+0x19d): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `poll_poll':
+(.text.hot+0x495): undefined reference to `poll'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `poll_poll':
+(.text.hot+0x766): undefined reference to `poll'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `poll_poll':
+(.text.hot+0x7b4): undefined reference to `poll'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `set2list':
+(.text.hot+0x867): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `set2list':
+(.text.hot+0x89c): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `set2list':
+(.text.hot+0x8e3): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `set2list':
+(.text.hot+0x919): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o): In function `set2list':
+(.text.hot+0x96d): undefined reference to `__fdelt_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(selectmodule.o):(.text.hot+0x9b9): more undefined references to `__fdelt_chk' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getaddrinfo':
+(.text+0x167b): undefined reference to `getaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getaddrinfo':
+(.text+0x16d5): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `makeipaddr':
+(.text+0x1d2d): undefined reference to `getnameinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `setipaddr':
+(.text+0x22f5): undefined reference to `getaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `setipaddr':
+(.text+0x232c): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `internal_setblocking.isra.4':
+(.text+0x250e): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_getsockname':
+(.text+0x26bb): undefined reference to `__memset_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_getsockname':
+(.text+0x26d5): undefined reference to `getsockname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `internal_select.isra.5':
+(.text+0x2964): undefined reference to `poll'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_accept':
+(.text+0x2a03): undefined reference to `__memset_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_accept_impl':
+(.text+0x2b86): undefined reference to `accept4'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_gethostbyaddr':
+(.text+0x2d45): undefined reference to `gethostbyaddr_r'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_getpeername':
+(.text+0x2deb): undefined reference to `__memset_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_getpeername':
+(.text+0x2e05): undefined reference to `getpeername'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_gethostname':
+(.text+0x318d): undefined reference to `gethostname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_shutdown':
+(.text+0x32d8): undefined reference to `shutdown'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getaddrinfo.cold.9':
+(.text.unlikely+0x63): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `makesockaddr.cold.17':
+(.text.unlikely+0x49d): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `makesockaddr.cold.17':
+(.text.unlikely+0x5b2): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `makebdaddr':
+(.text.unlikely+0x789): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `getsockaddrarg.cold.20':
+(.text.unlikely+0xd61): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `getsockaddrarg.cold.20':
+(.text.unlikely+0xe78): undefined reference to `ioctl'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `setipaddr.cold.22':
+(.text.unlikely+0x123f): undefined reference to `getaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `setipaddr.cold.22':
+(.text.unlikely+0x1293): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `setipaddr.cold.22':
+(.text.unlikely+0x12ca): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `setipaddr.cold.22':
+(.text.unlikely+0x1309): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_socketpair.cold.24':
+(.text.unlikely+0x14a6): undefined reference to `socketpair'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_socketpair.cold.24':
+(.text.unlikely+0x14ee): undefined reference to `socketpair'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `gethost_common.constprop.7.cold.41':
+(.text.unlikely+0x185f): undefined reference to `__h_errno_location'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `gethost_common.constprop.7.cold.41':
+(.text.unlikely+0x186a): undefined reference to `hstrerror'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_gethostbyname_ex':
+(.text.unlikely+0x1ae4): undefined reference to `gethostbyname_r'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `set_gaierror':
+(.text.unlikely+0x1c4a): undefined reference to `gai_strerror'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getservbyname':
+(.text.unlikely+0x2263): undefined reference to `getservbyname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_recvmsg_guts':
+(.text.unlikely+0x244c): undefined reference to `__memset_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_recvmsg_impl':
+(.text.unlikely+0x2848): undefined reference to `recvmsg'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `sock_sendmsg_impl':
+(.text.unlikely+0x2f10): undefined reference to `sendmsg'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_if_indextoname':
+(.text.unlikely+0x2fc3): undefined reference to `if_indextoname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_if_nametoindex':
+(.text.unlikely+0x3039): undefined reference to `if_nametoindex'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_if_nameindex':
+(.text.unlikely+0x3094): undefined reference to `if_nameindex'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_if_nameindex':
+(.text.unlikely+0x313d): undefined reference to `if_freenameindex'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_if_nameindex':
+(.text.unlikely+0x3149): undefined reference to `if_freenameindex'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_inet_aton':
+(.text.unlikely+0x329e): undefined reference to `inet_aton'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getprotobyname':
+(.text.unlikely+0x33ff): undefined reference to `getprotobyname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getservbyport':
+(.text.unlikely+0x34c3): undefined reference to `getservbyport'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_sethostname':
+(.text.unlikely+0x3590): undefined reference to `sethostname'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getnameinfo':
+(.text.unlikely+0x3755): undefined reference to `getaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getnameinfo':
+(.text.unlikely+0x380a): undefined reference to `getnameinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_getnameinfo':
+(.text.unlikely+0x3858): undefined reference to `freeaddrinfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(socketmodule.o): In function `socket_socketpair':
+(.text.hot+0x332): undefined reference to `socketpair'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec':
+(.text+0x400): undefined reference to `dup2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec':
+(.text+0x426): undefined reference to `dup2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec':
+(.text+0x449): undefined reference to `dup2'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec':
+(.text+0x536): undefined reference to `syscall'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec':
+(.text+0x7dd): undefined reference to `execv'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec.cold.2':
+(.text.unlikely+0x16f): undefined reference to `setsid'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec.cold.2':
+(.text.unlikely+0x1f3): undefined reference to `dup'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_posixsubprocess.o): In function `subprocess_fork_exec.cold.2':
+(.text.unlikely+0x20a): undefined reference to `dup'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(syslogmodule.o): In function `syslog_syslog':
+(.text.unlikely+0x5ed): undefined reference to `__syslog_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `PyInit_zlib':
+(.text+0x183): undefined reference to `zlibVersion'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_crc32':
+(.text+0x257): undefined reference to `crc32'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_crc32':
+(.text+0x2b1): undefined reference to `crc32'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompressobj':
+(.text+0x370): undefined reference to `inflateInit2_'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compressobj':
+(.text+0x50e): undefined reference to `deflateInit2_'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `Decomp_dealloc':
+(.text+0x652): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_decompress':
+(.text+0x7f2): undefined reference to `inflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_decompress':
+(.text+0x92d): undefined reference to `inflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Compress_compress':
+(.text+0xbbc): undefined reference to `deflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Compress_flush':
+(.text+0xd0e): undefined reference to `deflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Compress_flush':
+(.text+0xd41): undefined reference to `deflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_flush':
+(.text+0xeaa): undefined reference to `inflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_flush':
+(.text+0xef4): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress':
+(.text+0x1065): undefined reference to `inflateInit2_'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress':
+(.text+0x1093): undefined reference to `inflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress':
+(.text+0x10b8): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_crc32.cold.11':
+(.text.unlikely+0x1f): undefined reference to `crc32'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compressobj.cold.13':
+(.text.unlikely+0x1c0): undefined reference to `deflateSetDictionary'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_decompress.cold.17':
+(.text.unlikely+0x2f2): undefined reference to `inflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Compress_compress.cold.20':
+(.text.unlikely+0x51a): undefined reference to `deflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Compress_flush.cold.21':
+(.text.unlikely+0x661): undefined reference to `deflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `Comp_dealloc.cold.22':
+(.text.unlikely+0x6af): undefined reference to `deflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_adler32':
+(.text.unlikely+0x750): undefined reference to `adler32'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_adler32':
+(.text.unlikely+0x75c): undefined reference to `adler32'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_adler32':
+(.text.unlikely+0x777): undefined reference to `adler32'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Compress_copy':
+(.text.unlikely+0x808): undefined reference to `deflateCopy'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compress':
+(.text.unlikely+0xa39): undefined reference to `deflateInit_'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compress':
+(.text.unlikely+0xa86): undefined reference to `deflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compress':
+(.text.unlikely+0xaba): undefined reference to `deflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compress':
+(.text.unlikely+0xaea): undefined reference to `deflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_compress':
+(.text.unlikely+0xaf6): undefined reference to `deflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_flush.cold.23':
+(.text.unlikely+0xc2f): undefined reference to `inflate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_Decompress_copy':
+(.text.unlikely+0xcf6): undefined reference to `inflateCopy'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress.cold.24':
+(.text.unlikely+0xe60): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress.cold.24':
+(.text.unlikely+0xee8): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress.cold.24':
+(.text.unlikely+0xefc): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `zlib_decompress.cold.24':
+(.text.unlikely+0xf0b): undefined reference to `inflateEnd'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zlibmodule.o): In function `set_inflate_zdict':
+(.text.unlikely+0x101e): undefined reference to `inflateSetDictionary'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat':
+(.text+0xda): undefined reference to `XML_ExpatVersion'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat':
+(.text+0xef): undefined reference to `XML_ExpatVersionInfo'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat':
+(.text+0x1ff): undefined reference to `XML_GetFeatureList'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_ParserCreate':
+(.text+0x3c7): undefined reference to `XML_ParserCreate_MM'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_ParserCreate':
+(.text+0x3e9): undefined reference to `XML_SetHashSalt'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_ParserCreate':
+(.text+0x3f5): undefined reference to `XML_SetUserData'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_ParserCreate':
+(.text+0x405): undefined reference to `XML_SetUnknownEncodingHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_setattro':
+(.text+0x8d5): undefined reference to `XML_SetReturnNSTriplet'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_Parse':
+(.text+0x9bc): undefined reference to `XML_SetEncoding'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_Parse':
+(.text+0x9dd): undefined reference to `XML_Parse'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `my_StartElementHandler':
+(.text+0xb86): undefined reference to `XML_GetSpecifiedAttributeCount'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_dealloc':
+(.text+0xfe5): undefined reference to `XML_ParserFree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_ParseFile':
+(.text+0x10af): undefined reference to `XML_GetBuffer'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_ParseFile':
+(.text+0x115e): undefined reference to `XML_ParseBuffer'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_SetParamEntityParsing':
+(.text+0x120b): undefined reference to `XML_SetParamEntityParsing'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_ExternalEntityParserCreate':
+(.text+0x141f): undefined reference to `XML_ExternalEntityParserCreate'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_ExternalEntityParserCreate':
+(.text+0x1481): undefined reference to `XML_SetUserData'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_SetBase':
+(.text+0x1617): undefined reference to `XML_SetBase'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x2c8): undefined reference to `XML_SetStartElementHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x2f0): undefined reference to `XML_SetEndElementHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x318): undefined reference to `XML_SetProcessingInstructionHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x340): undefined reference to `XML_SetCharacterDataHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x368): undefined reference to `XML_SetUnparsedEntityDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x390): undefined reference to `XML_SetNotationDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x3b8): undefined reference to `XML_SetStartNamespaceDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x3e0): undefined reference to `XML_SetEndNamespaceDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x408): undefined reference to `XML_SetCommentHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x430): undefined reference to `XML_SetStartCdataSectionHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x458): undefined reference to `XML_SetEndCdataSectionHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x480): undefined reference to `XML_SetDefaultHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x4a8): undefined reference to `XML_SetDefaultHandlerExpand'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x4d0): undefined reference to `XML_SetNotStandaloneHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x4f8): undefined reference to `XML_SetExternalEntityRefHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x520): undefined reference to `XML_SetStartDoctypeDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x548): undefined reference to `XML_SetEndDoctypeDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x570): undefined reference to `XML_SetEntityDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x598): undefined reference to `XML_SetXmlDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x5c0): undefined reference to `XML_SetElementDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x5e8): undefined reference to `XML_SetAttlistDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.data+0x610): undefined reference to `XML_SetSkippedEntityHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x6c): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x9c): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0xbc): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x11b): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x153): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o):(.text.unlikely+0x173): more undefined references to `XML_ErrorString' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1c62): undefined reference to `XML_GetErrorCode'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1c6d): undefined reference to `XML_GetCurrentColumnNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1c78): undefined reference to `XML_GetCurrentLineNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1c83): undefined reference to `XML_Parse'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1c8e): undefined reference to `XML_ParserCreate_MM'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1c99): undefined reference to `XML_ParserFree'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1ca4): undefined reference to `XML_SetCharacterDataHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1caf): undefined reference to `XML_SetCommentHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1cba): undefined reference to `XML_SetDefaultHandlerExpand'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1cc5): undefined reference to `XML_SetElementHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1cd0): undefined reference to `XML_SetNamespaceDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1cdb): undefined reference to `XML_SetProcessingInstructionHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1ce6): undefined reference to `XML_SetUnknownEncodingHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1cf1): undefined reference to `XML_SetUserData'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1cfc): undefined reference to `XML_SetStartDoctypeDeclHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `PyInit_pyexpat.cold.17':
+(.text.unlikely+0x1d07): undefined reference to `XML_SetEncoding'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_setattro.cold.19':
+(.text.unlikely+0x2531): undefined reference to `__sprintf_chk'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x269b): undefined reference to `XML_GetCurrentLineNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x26f5): undefined reference to `XML_GetCurrentColumnNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x274a): undefined reference to `XML_GetCurrentByteIndex'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x280e): undefined reference to `XML_GetCurrentColumnNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x283c): undefined reference to `XML_GetCurrentByteIndex'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x2873): undefined reference to `XML_GetCurrentLineNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `xmlparse_getattro.cold.20':
+(.text.unlikely+0x288d): undefined reference to `XML_GetErrorCode'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_Parse.cold.21':
+(.text.unlikely+0x2910): undefined reference to `XML_Parse'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `call_with_frame.isra.7.cold.24':
+(.text.unlikely+0x2aba): undefined reference to `XML_StopParser'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `get_parse_result.cold.27':
+(.text.unlikely+0x2b2a): undefined reference to `XML_GetErrorCode'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `call_character_handler.cold.28':
+(.text.unlikely+0x2b53): undefined reference to `XML_SetCharacterDataHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `call_character_handler.cold.28':
+(.text.unlikely+0x2bb5): undefined reference to `XML_SetCharacterDataHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `set_error.isra.8':
+(.text.unlikely+0x2e59): undefined reference to `XML_GetCurrentLineNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `set_error.isra.8':
+(.text.unlikely+0x2e64): undefined reference to `XML_GetCurrentColumnNumber'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `set_error.isra.8':
+(.text.unlikely+0x2e6f): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_UseForeignDTD':
+(.text.unlikely+0x30be): undefined reference to `XML_UseForeignDTD'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_ErrorString':
+(.text.unlikely+0x3c56): undefined reference to `XML_ErrorString'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_GetBase':
+(.text.unlikely+0x4257): undefined reference to `XML_GetBase'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `pyexpat_xmlparser_GetInputContext':
+(.text.unlikely+0x45a4): undefined reference to `XML_GetInputContext'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `flag_error':
+(.text.unlikely+0x3224): undefined reference to `XML_SetExternalEntityRefHandler'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(pyexpat.o): In function `my_ElementDeclHandler':
+(.text.unlikely+0x393f): undefined reference to `XML_FreeContentModel'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_lower_locale':
+(.text+0x212c): undefined reference to `__ctype_tolower_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_ucs1_match.cold.26':
+(.text.unlikely+0xaf9): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_ucs1_match.cold.26':
+(.text.unlikely+0xb36): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_ucs1_match.cold.26':
+(.text.unlikely+0xbbb): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_ucs1_match.cold.26':
+(.text.unlikely+0xbf8): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_ucs1_count.cold.28':
+(.text.unlikely+0x10ea): undefined reference to `__ctype_b_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o):(.text.unlikely+0x1192): more undefined references to `__ctype_b_loc' follow
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_sre.o): In function `sre_upper_locale':
+(.text.unlikely+0x59c6): undefined reference to `__ctype_toupper_loc'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(timemodule.o): In function `py_process_time.cold.19':
+(.text.unlikely+0x3e9): undefined reference to `getrusage'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(timemodule.o): In function `py_process_time.cold.19':
+(.text.unlikely+0x475): undefined reference to `times'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(timemodule.o): In function `py_process_time.cold.19':
+(.text.unlikely+0x549): undefined reference to `clock_getres'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(timemodule.o): In function `time_clock_getres':
+(.text.unlikely+0x678): undefined reference to `clock_getres'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(timemodule.o): In function `time_clock_settime':
+(.text.unlikely+0x7bc): undefined reference to `clock_settime'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_localemodule.o): In function `PyIntl_bindtextdomain':
+(.text.unlikely+0x6e0): undefined reference to `bindtextdomain'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_localemodule.o): In function `PyIntl_textdomain':
+(.text.unlikely+0x78c): undefined reference to `textdomain'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_localemodule.o): In function `PyIntl_dcgettext':
+(.text.unlikely+0x814): undefined reference to `dcgettext'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_localemodule.o): In function `PyIntl_dgettext':
+(.text.unlikely+0x87f): undefined reference to `dcgettext'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_localemodule.o): In function `PyIntl_gettext':
+(.text.unlikely+0x8df): undefined reference to `dcgettext'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(_localemodule.o): In function `PyIntl_bind_textdomain_codeset':
+(.text.unlikely+0x945): undefined reference to `bind_textdomain_codeset'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO_readall':
+(.text+0xf9): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO_truncate':
+(.text+0x379): undefined reference to `ftruncate64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO___init__.cold.11':
+(.text.unlikely+0xcb): undefined reference to `open64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO___init__':
+(.text.hot+0x1da): undefined reference to `open64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO___init__':
+(.text.hot+0x2b5): undefined reference to `open64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO___init__':
+(.text.hot+0x4fb): undefined reference to `open64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO___init__':
+(.text.hot+0x53d): undefined reference to `open64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO_read':
+(.text.hot+0x736): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `_io_FileIO_tell':
+(.text.hot+0xac3): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(fileio.o): In function `portable_lseek':
+(.text.hot+0xb27): undefined reference to `lseek64'
+/usr/lib/python3.5/config-3.5m-x86_64-linux-gnu/libpython3.5m.a(zipimport.o): In function `read_directory':
+(.text+0x681): undefined reference to `__fread_chk'
+/home/ubuntu/includeos/includeos/x86_64/lib/libc.a(lib_a-timesr.o): In function `_times_r':
+/home/alfred/IncludeOS_build/build_newlib/x86_64-elf/newlib/libc/reent/../../../../../newlib-2.5.0.20170323/newlib/libc/reent/timesr.c:60: undefined reference to `times'
+CMakeFiles/service.dir/build.make:146: recipe for target 'seed' failed
+make[2]: *** [seed] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/service.dir/all' failed
+make[1]: *** [CMakeFiles/service.dir/all] Error 2
+Makefile:127: recipe for target 'all' failed
+make: *** [all] Error 2
